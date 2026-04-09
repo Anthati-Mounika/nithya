@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> First Registration Form</title>
+</head>
+<body>
+
+    <h2>Registration Form</h2>
+
+    <form>
+        <!-- Name -->
+        <label>Full Name:</label><br>
+        <input type="text" name="fullname" required><br><br>
+
+        <!-- Email -->
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <!-- Password -->
+        <label>Password:</label><br>
+        <input type="password" name="password" required><br><br>
+
+        <!-- Gender -->
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female<br><br>
+
+        <!-- Date of Birth -->
+        <label>Date of Birth:</label><br>
+        <input type="date" name="dob"><br><br>
+
+        <!-- Phone -->
+        <label>Phone Number:</label><br>
+        <input type="tel" name="phone"><br><br>
+
+        <!-- Address -->
+        <label>Address:</label><br>
+        <textarea name="address"></textarea><br><br>
+
+        <!-- Course -->
+        <label>Select Course:</label><br>
+        <select name="course">
+            <option value="btech">B.Tech</option>
+            <option value="bsc">B.Sc</option>
+            <option value="bcom">B.Com</option>
+        </select><br><br>
+
+        <!-- Checkbox -->
+        <input type="checkbox" required> I agree to terms and conditions<br><br>
+
+        <!-- Submit -->
+        <input type="submit" value="Register">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
